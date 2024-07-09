@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container .text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+
+}
+
+h2{
+    margin: 0.1cm;
+    padding: 0.1cm;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+  
+}
+
+
+p{
+    width: 98%;
+    margin-left: 0.9%;
+    text-align: justify;
+      
+}
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.center-list{
+    margin-left: 0.8cm;
+    text-align: center;
+    list-style-position: inside;
+   
+}
+
+.courts{
+    margin-left: 0.8cm;
+    text-align: center;
+    list-style-position:inside;
+   
+
+}
+
+.courts p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: red;
+    text-decoration: solid;
+    font-weight:bolder;
+}
